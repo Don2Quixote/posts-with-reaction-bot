@@ -1,0 +1,23 @@
+{
+  "name": "telegram-posts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node out/main.js",
+    "dev-start": "npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "sqlite3": "^5.0.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "@types/sqlite3": "^3.1.6"
+  }
+}
